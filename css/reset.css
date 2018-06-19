@@ -1,0 +1,25 @@
+html,body,ul,div,p,input,form,span,li{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #f6f6f6;
+}
+input{
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    outline: 0;
+}
+a,label,li,input{
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+li{
+   list-style: none;
+}
